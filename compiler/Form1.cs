@@ -65,7 +65,7 @@ namespace compiler
             Process pcom = new Process();
             //  pcom.StartInfo.FileName = "javac";
             pcom.StartInfo.FileName = "gcc.exe";
-            string path = "C:\\MinGW\\bin\\add.c";
+            string path = "C:\\MinGW\\bin\\add.c";      //add.c file is taken so take filename which you want to run
             pcom.StartInfo.WorkingDirectory = "C:\\MinGW\\bin";
             pcom.StartInfo.Arguments = path ;   //filename.Text;
 
